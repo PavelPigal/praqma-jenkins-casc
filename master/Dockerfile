@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 
-LABEL maintainer="ewe@praqma.net"
+LABEL maintainer="pavel_pigal@epam.com"
 COPY plugins_extra.txt /usr/share/jenkins/ref/plugins_extra.txt
 
 ENV JENKINS_HOME /var/jenkins_home
